@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Registration </title>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="registration.css">
+ 	<link href="fontawesome/css/all.css" rel="stylesheet">
+	<script type="text/javascript" src="registration.js"></script>
+</head>
+<body>
+	<header>
+		<hr color="#f0f">
+    	<h3><img src="ade.png" alt="image not found"> PLEASE REGISTER BELOW </h3>
+    	<hr color="#f0f">
+	</header>
+	<div id="maincontainer">
+		<fieldset id="fieldset">
+			<legend>Personal Information</legend>
+			<div id="main">
+				<form name="input" action="/action_page.php" method="get" target="_top" onsubmit="return confirmMatch()">
+					<div id="updiv">
+						<label for="Photo" id="upload"> upload photo
+							<input type="file" class="pic" name="upload pic">
+						</label>
+					</div>
+					<div id="info">
+						<label for="fname"> first name:
+							<input type="text" name="fname" class="in" placeholder="Enter Your Firstname">
+						</label>
+						<label for="lname"> last name:
+							<input type="text" name="lname" class="in" placeholder="Enter Your Lastname">
+						</label>
+						<label for="username"> username:
+							<input type="text" name="username" class="in" placeholder="Enter your username">
+						</label>
+						<label id="tooltip1" for="password"> password:
+							<span id="tooltiptext1"><i class="fas fa-warning" style="color: red" id="hey"></i></span>
+							<input type="password" name="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}" class="in" placeholder="Enter Password" id="pass" onkeyup="checkValid()" required>
+						</label>
+						<label id="tooltip" for="confirmPassword"> confirm password:
+							<span id="tooltiptext"></span>
+							<input type="password" name="confirmPassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}" class="in" placeholder="Confirm Password" onkeyup="confirmPasswordInp()" id="confirmPass" required>
+						</label>
+						<div id="fontDiv">
+							<i class="fas fa-check-circle" id="font1" style="font-size: 25px;"></i><i class="fa fa-times" id="font2" style="font-size: 25px"></i>
+						</div>
+						<div id="showPasswordDiv"><span id="show">Show Password</span><input type="checkbox" name="show-password" onclick="showPassword()" id="checkBox"></div>
+						<label for="e-mail"> e-mail:
+							<input type="email" name="email" class="in" placeholder="you@example.com">
+						</label>
+						<label for="address"> address:
+							<input type="text" name="address" class="address">
+						</label>
+						<label for="phoneNo"> phone number:
+							<input type="tel" name="telephone" class="in">
+						</label>
+						<label  for="Gender" class="gender"> gender:
+							<label for="male" class="genderop1"> male:
+								<input type="radio" name="genderinpt" value="Male" checked="checked">
+							</label>
+							<label for="female" class="genderop2"> female:
+								<input type="radio" name="genderinpt" value="Female">
+							</label>
+						</label>
+						<label  for="dob" class="dob">DOB:
+							<input type="date" id="dateInp" name="datemax" max="1985/12/31">
+							<label for="confirmAgeRate" class="chk" title="please check to proceed if you are morethan age of 13"> +13:
+								<input type="checkbox" class="chkBox" onClick="alert( 'By clicking this, you agree that you are upto or morethan the age of 13' )">
+							</label>
+						</label>
+						<label for="country" class="countryLabel"> country:
+							<select name="country" class="nation">
+								<option value="Nigeria">Nigeria</option>
+	 							<option value="Germany">Germany</option>
+	 							<option value="USA"> United State of America</option>
+	 							<option value="UK">United Kingdom</option>
+	 							<option value="Canada">Canada</option>
+							</select>
+						</label>
+						<label for="color" class="favColLabel"> favourite color:
+							<input type="color" class="paint">
+						</label>
+						<label for="comment" id="comnt"> comment:
+							<textarea rows="8" cols="35">Comment here</textarea>
+						</label>
+						<div id="bottomdiv">
+							<input type="submit" value="Done" class="ok">
+							<input type="reset" value="Reset" class="cancel">
+						</div>
+					</div>
+				</form>
+			</div>
+				<a href="login.html" class="aha"><button id="sign-in"> already have an account</button></a>
+		</fieldset>
+	</div>
+</body>
+</html>
