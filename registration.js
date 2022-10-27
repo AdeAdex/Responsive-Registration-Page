@@ -98,3 +98,12 @@ function showPassword() {
 			inpObj2.type = "password";
 		}
 	};
+
+
+
+	function track() {
+		let accept = document.getElementById("agreed");
+		if (accept.checked == true) {
+			alert("By clicking this, you agree that you are upto or morethan the age of 13")
+		} 
+	}
