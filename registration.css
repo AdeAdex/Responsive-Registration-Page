@@ -15,80 +15,80 @@ img{
 	}
 }
 
-	header{
-		margin-top: 50px;
-		width: 99%;
-		margin: auto;
-	}
+header{
+	margin-top: 50px;
+	width: 99%;
+	margin: auto;
+}
 		
-	 @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   header, hr{
     width: 100%;
     margin-left: 1px;
   }
 }
 		
-		h3{
-			margin: auto;
-			background-color: rgba( 192, 192, 192, .3);
-			font-size: 35px;
-			font-family: Times New Roman;
-			font-style: oblique;
-			text-transform: capitalize;
-			text-align: center;
-			color: yellow;
-			font-weight: bolder;
-		}
-		
-    @media screen and (max-width: 600px) {
-        h3{
-          font-size: 30px;
-  }
+h3{
+	margin: auto;
+	background-color: rgba( 192, 192, 192, .3);
+	font-size: 35px;
+	font-family: Times New Roman;
+	font-style: oblique;
+	text-transform: capitalize;
+	text-align: center;
+	color: yellow;
+	font-weight: bolder;
+}
+
+@media screen and (max-width: 600px) {
+	h3{
+		font-size: 30px;
+	}
 }
 		
-		#maincontainer{
-		  width: 80%;
-		  margin: auto;
-		}
+#maincontainer{
+	width: 80%;
+	margin: auto;
+}
 		
-	@media screen and (max-width: 600px) {
-    #maincontainer{
-        width: 90%;  
+@media screen and (max-width: 600px) {
+#maincontainer{
+    width: 90%;  
   }
 }
 
-		fieldset{
-			width: 95%;
-			border: 1px solid red;
-			margin-right: ;
-	}
+fieldset{
+	width: 95%;
+	border: 1px solid red;
+	height: auto;
+}
 	
-	@media screen and (max-width: 600px) {
-      fieldset{
-        width: 90%;  
+@media screen and (max-width: 600px) {
+  fieldset{
+    width: 90%;  
   }
 }
 
-	legend{
-		color: yellow;
-		font-size: x-large;
-		border: 1px solid red;
-	}
+legend{
+	color: yellow;
+	font-size: x-large;
+	border: 1px solid red;
+}
 						
-	label{
-		color: cyan;
-		text-transform: capitalize;
-		display: block;
-		font-size: large;
+label{
+	color: cyan;
+	text-transform: capitalize;
+	display: block;
+	font-size: large;
+}
+							
+#main{
+	  margin-top: 40px;								  
 	}
-								
-	#main{
-		  margin-top: 40px;								  
-		}
-								
-	#updiv{
-	  float: right;
-	}
+							
+#updiv{
+  float: right;
+}
 @media screen and (max-width: 600px) {
     #updiv{
        width: 100%;  
@@ -97,38 +97,38 @@ img{
     }
  }
     
-        .pic{
-          font-size: small;
-          float: right;
-          width: 75%;
-        }
-								
-			#upload{
-				 font-size: x-small;
-				 display: inline-block;
-			}
-								  
-		#info{
-		  padding-top: 50px;
-		  clear: ;
-		}
+.pic{
+	font-size: small;
+	float: right;
+	width: 75%;
+}
+						
+#upload{
+	 font-size: x-small;
+	 display: inline-block;
+}
+						  
+#info{
+	padding-top: 50px;
+	clear: ;
+}
 
-		.in{
-		  padding: 2px 5px;
-			width: 50%;
-			font-size: large;
-			border-radius: 3px;
-			font-family: Geogia;
-			display: block;
-			margin: 6px 0px;
-		}
-		
-		#fontDiv{
-		  float: right;
-		  margin-right: 40%;
-		  background-color: ;
-		  margin-top: -35px;
-		}
+.in{
+	padding: 2px 5px;
+	width: 50%;
+	font-size: large;
+	border-radius: 3px;
+	font-family: Geogia;
+	display: block;
+	margin: 6px 0px;
+}
+
+#fontDiv{
+	float: right;
+	margin-right: 40%;
+	background-color: ;
+	margin-top: -35px;
+}
 
 #font1, #font2{
 	display: none;
@@ -249,16 +249,16 @@ img{
       }
     }
 									
-	.address{
-			font-style: italic;
-			width: 50%;
-			font-size: large;
-			border-radius: 3px;
-			font-family: Geogia;
-			padding: 2px 5px;
-			margin: 6px 0px;
-			display: block;
-		}
+.address{
+	font-style: italic;
+	width: 50%;
+	font-size: large;
+	border-radius: 3px;
+	font-family: Geogia;
+	padding: 2px 5px;
+	margin: 6px 0px;
+	display: block;
+}
 	
 @media screen and (max-width: 600px) {
     .in, .address{
@@ -268,11 +268,11 @@ img{
 
 
 .gender{
-		color: cyan;
-		text-transform: capitalize;
-		font-size: large;
-		display: inline-block;
-	}
+	color: cyan;
+	text-transform: capitalize;
+	font-size: large;
+	display: inline-block;
+}
 
 .genderop1{
 	color: cyan;
@@ -284,13 +284,13 @@ img{
 }
 						
 .genderop2{
-		color: cyan;
-		text-transform: capitalize;
-		font-size: x-small;
-		display: inline-block;
-		margin-left: 5px;
+	color: cyan;
+	text-transform: capitalize;
+	font-size: x-small;
+	display: inline-block;
+	margin-left: 5px;
 						
-	}
+}
 						
 .dob{
 	color: cyan;
@@ -317,17 +317,17 @@ img{
 }
 
 .chk{
-		color: cyan;
-		display: inline-block;
-		font-size: small;
-	}
+	color: cyan;
+	display: inline-block;
+	font-size: small;
+}
 	
-	.chkBox{
-	  margin-top: 15px;
-	  background-color: yellow;
-	  color: red;
-	  font-size: 60px;
-	}
+.chkBox{
+  margin-top: 15px;
+  background-color: yellow;
+  color: red;
+  font-size: 60px;
+}
 
 .nation{
 	margin-left: 85px;
@@ -359,22 +359,25 @@ img{
 }
 						
  .countryLabel, .favColLabel{
-	    margin: 6px 0px;
-	}
+    margin: 6px 0px;
+}
 	
-	#comnt{
-	  display: grid;
-	}
+#comnt{
+  display: grid;
+}
 
-	textarea{
-		margin-left: 1px;
-		overflow: scroll;
-		background-color: white;
-		color: black;
-		box-sizing: border-box;
-		width: 52%;
-		text
-	}
+textarea{
+	margin-left: 1px;
+	overflow: auto;
+	overflow-x: hidden;
+	background-color: white;
+	color: black;
+	box-sizing: border-box;
+	width: 52%;
+	resize: none;
+	font-size: 12px;
+	padding: 10px;
+}
 						
 @media screen and (max-width: 600px) {
      textarea{
@@ -382,47 +385,49 @@ img{
   }
 }
 						
-						.aha{
-						  float: right;
-						  text-decoration: none;
-						}
-						#sign-in{
-							cursor: pointer;
-						  	color: white;
-						  	background-color: blue;
-						  	margin-top: ;
-						}
-						
-						
-					    .ok{
-					      width: 20%;
-					      height: 30px;
-								color: white;
-								background-color: green;
-								font-size: large;
-								cursor: pointer;
-								border: 3px solid white;
-								border-bottom: 5px solid #58fb86;
-								border-radius: 4px;
-							}
+.aha{
+	float: right;
+	text-decoration: none;
+}
+#sign-in{
+	cursor: pointer;
+  	color: white;
+  	background-color: blue;
+  	margin-top: ;
+}
 
-							.cancel{
-							  width: 20%;
-							  height: 29px;
-								color: white;
-								background-color: red;
-								font-size: large;
-								display: inline-block;
-								cursor: pointer;
-								border: 3px solid gray;
-								border-radius: 3px;
-							}
+
+.ok {
+	width: 60px;
+	height: 60px;
+	color: white;
+	background-color: green;
+	font-size: large;
+	cursor: pointer;
+	border: 3px solid white;
+	border-bottom: 5px solid #58fb86;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.cancel{
+	width: 60px;
+	height: 60px;
+	color: white;
+	background-color: red;
+	font-size: large;
+	display: inline-block;
+	cursor: pointer;
+	border: 3px solid gray;
+	border-radius: 50%;
+}
 							
 							
-	#bottomdiv{
-			background-color:rgba( 192, 192, 192, .3);
-							margin-top: 70px;
-							height: 30px;	
-	  
-	}
+#bottomdiv{
+	background-color: ;
+	margin-top: 70px;
+	justify-content: flex-start;
+	display: flex;	
+	padding: 5px 0px;
+}
 
